@@ -1,0 +1,47 @@
+h2{
+  font-family: verdana;
+  font-size:150%;
+  color:#4d4d4d;
+}
+h3{
+  font-family: verdana;
+  font-size:100%;
+  color:#666666;
+}
+ul{
+  list-style-position: inside;
+}
+
+ul li{
+  font-family: verdana;
+  font-size:80%;
+  color:gray;
+}
+.icon1{
+  left:100px;
+  top:110px;
+  height:50px;
+  width:50px;
+  position:absolute;
+}
+.icon2{
+  left:100px;
+  top:620px;
+  height:50px;
+  width:50px;
+  position:absolute;
+}
+.icon3{
+  left:100px;
+  top:1130px;
+  height:50px;
+  width:50px;
+  position:absolute;
+}
+.icon4{
+  left:100px;
+  top:1640px;
+  height:50px;
+  width:50px;
+  position:absolute;
+}
