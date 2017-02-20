@@ -1,0 +1,49 @@
+#whole{
+  margin:auto;
+}
+#wrapper{
+width:400px;
+margin-left:200px;
+}
+
+#wrapper h1{
+font-family:gill sans;
+text-align:left;
+padding-left:20px;
+margin-top: 70px
+}
+#wrapper img{
+width:80%;
+}
+#wrapper p{
+font-family:avenir;
+line-height:1.3em;
+padding-left:20px;
+padding-right:20px;
+float:left
+}
+#second{
+  position:relative;
+  width:400px;
+  float:left;
+  margin-left: 100px;
+}
+
+#second img{
+width:80%;
+padding:20px;
+}
+
+#third{
+  position:relative;
+  width:400px;
+  float:left;
+  margin-left: 100px;
+}
+
+#third p{
+ font-family:avenir;
+line-height:1.3em;
+padding-left:20px;
+padding-right:20px;
+}
