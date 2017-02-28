@@ -1,0 +1,37 @@
+#wrapper{
+  position: fixed;
+  width:350px;
+  height:400px;
+  background-color:white;
+  opacity: 0.9;
+  margin:auto;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left:0;
+  border:1px solid #AD8891;
+}
+
+#wrapper h1{
+  font-family: arial black;
+  font-size: 80px;
+  text-align: center;
+  color:#5DA4E5;
+}
+
+#wrapper a{
+  font-family: avenir;
+  font-size: 20px;
+  color:#5DA4E5;
+  text-decoration: none;
+  text-align:center;
+  display: block;
+}
+
+#wrapper a:visited{
+  color:#B9EDF4;
+}
+
+#wrapper a:hover{
+  color:lightpink;
+}
