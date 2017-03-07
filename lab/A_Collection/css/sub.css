@@ -219,8 +219,22 @@ li a{
   line-height: 2.5em;
   color:gray;
   font-family: avenir;
-  
+
 }
 ol li{
   list-style-type: none;
 }
+/*#div1 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    margin-left: 850px;
+    margin-top: -600px;
+}
+#drag1{
+  width:100px;
+  height:auto;
+  margin-left: 850px;
+  margin-top: -500px;
+}*/

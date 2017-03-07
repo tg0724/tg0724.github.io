@@ -173,10 +173,12 @@ left: 0;
   text-align: center;
   margin-left: 75px;
 }
-#bar input{
+#bar input {
   width:100%;
   cursor:pointer;
+
 }
+
 
 
 
