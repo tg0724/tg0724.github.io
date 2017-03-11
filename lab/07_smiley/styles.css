@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+}
+header{
+  position:fixed;
+  left:20px;
+  bottom:10px;
+}
+
+.label{
+  display: inline-table;
+}
+.label.active{
+  background-color: lightpink;
+}
+.label.inactive{
+  background-color: lightblue;
+}
+
+.prompt, .monitor{
+  display: inline-block;
+  background-color: white;
+  padding: 10px;
+  border:1px solid gray;
+}
+
+.prompt{
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+body{
+  margin:4px;
+  /*font-size: 0;*/
+  margin-right: 0;
+}
+.block{
+  display: inline-block;
+  border:1px solid lightblue;
+  width:calc(10% - 4px);
+  padding-top: 10%;
+}
+.black{
+  background-color: black;
+}
+.yellow{
+  background-color: yellow;
+}
+
+/*animations*/
+@keyframes pulse {
+  0% {opacity:0}
+  50% {opacity:1}
+  100% {opacity:0}
+}
+
+@media (max-width: 480px){
+  .block{
+    width: calc(20% - 4px);
+    padding-top: calc(20% - 4px);
+  }
+  .block:hover{
+    background-color: lightpink;}
+    .label.active{
+      display:none;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 991px){
+  .block:hover{
+    background-color: lightblue;
+  }
+  .label.inactive{
+    display:none;
+  }
+  .prompt{
+    display: none;
+  }
+}
+
+/*large screen*/
+@media (min-width: 992px){
+  .block{
+    width: calc(5% - 4px);
+    padding-top: calc(5% - 4px)
+  }
+  .block:hover{
+    background-color: gray;}
+    .label.active{
+      display:none;
+    }
+
+}
