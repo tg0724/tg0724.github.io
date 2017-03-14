@@ -1,46 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Homepage</title>
-  <style>
-  body{
-    background-image:url("b.jpg");
-  }
-  </style>
-<head/>
+  <title>Tiange Chen</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Noto+Sans|Playfair+Display|Titillium+Web:400,700" rel="stylesheet">
 
+  <script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("Url","first.html");
+}
+
+function drop(ev)
+{
+     ev.preventDefault();
+    window.location=ev.dataTransfer.getData("Url");
+}
+
+</script>
+
+</head>
 <body>
- <h1 style="font-family:Verdana;font-size:300%;text-align:center;color:grey">Claudia's Core Interaction Site</h1>
+  <h1>Drag the Brocoli to the Pan</h1>
+  <h2>This action is currenyly only available by using Safari brower </h2>
+  <div id="container">
+  <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="pan.png" width="336" height="auto"></div>
 <br>
- <h2 style="font-family:Verdana;font-size:150%;text-align:center;letter-spacing:15px;color:grey">Lab</h2>
-  <ul style="font-family:Verdana; font-size:100%;text-align:center; list-style-position:inside;list-style:none;">
-  <li><a href="./lab/01_something-beautiful/something-beautiful.html">Something Beautiful(Click Fingertips for Suprise)</a><li>
-    <br>
-      <li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./lab//02_building-with-css/index.html">CSS In-class Exercise</a></li>
-      <br>
-        <li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./lab//04_layout-with-css/index.html">CSS Layout Exercise</a></li>
-  </ul>
-  <br><br><br><br><br><br>
-
-  <h2 style="font-family:Verdana;font-size:150%;text-align:center;letter-spacing:15px;color:grey">Studio</h2>
-  <ul>
-  <li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./studio/Week1/week_01.html">Reading Response</a></li>
-  <br>
-  <li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./studio/Week2/week_02.html">Classification</a></li>
-  <br>
-  <li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./studio/Week3/week_03.html">Wire Frame Sketch</a></li>
-  <br>
-  <li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./studio/Week4/index.html">Thoughts about Information</a></li>
-  <br>
-<li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./studio/Week5/index.html">In Class Exercise</a></li>
-  <br>
-<li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./lab/A_Collection/index.html">A Collection</a></li>
-  <br>
-<li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./studio/typeface/index.html">Typeface Exercise</a></li>
-<br>
-<li style="font-family:Verdana;font-size:100%;text-align:center; list-style-position:inside;list-style:none;"><a href="./studio/Blog/index.html">Blog--1</a></li>
-
-  </ul>
-
-<body/>
-<html/>
+<div id="div2">
+<img id="drag1" src="food.png" draggable="true" ondragstart="drag(event)" width="336" height="auto">
+</div>
+</div>
+</body>
+</html>
