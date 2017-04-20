@@ -99,7 +99,6 @@ var tCtx = document.getElementById('textCanvas').getContext('2d'),
 document.getElementById('text').addEventListener('keyup', function (){
     tCtx.canvas.width = tCtx.measureText(this.value).width,10,50;
     tCtx.fillText(this.value, 0, 10);
-    tCtx.font = "30px vernada";
     imageElem.src = tCtx.canvas.toDataURL();
     console.log(imageElem.src);
 }, false);

@@ -20,7 +20,7 @@ html {
 
 
 .button1 {
-  position: fixed;
+  position: absolute;;
 
   border-radius: 5%;
   background-color: #fcbdc9;
@@ -37,6 +37,9 @@ html {
   font-weight: 400;
 }
 
+button:focus {
+outline: none;
+}
 
 #teacher{
   position: absolute;
@@ -87,8 +90,8 @@ h1{
 }
 
 
-/*#ready{
-position: fixed;
+#ready{
+position: absolute;;
 border-radius: 5%;
 background-color: #fcbdc9;
 border: none;
@@ -103,7 +106,10 @@ margin-top: 680px;
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
 z-index: 9;
-}*/
+top:-100px;
+left:-80px;
+}
+
 
 
 canvas{
