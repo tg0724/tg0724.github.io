@@ -1,0 +1,128 @@
+html {
+  background:url(https://media.giphy.com/media/3oEdv0DUQOagqEI30k/giphy.gif)  center center fixed;
+  background-size: cover;
+
+}
+
+#transparent{
+  background-color: white;
+  opacity: 0.88;
+  height:90%;
+  width:90%;
+  border: 1px solid white;
+  position:absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+.button1 {
+  position: fixed;
+
+  border-radius: 5%;
+  background-color: #fcbdc9;
+  border: none;
+  color: green;
+  text-align: center;
+  font-size: 100%;
+  padding: 1%;
+  width: auto;;
+  cursor: pointer;
+  margin-left: 400px;
+  margin-top: 380px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+
+#teacher{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -5;
+}
+
+#answer{
+  margin-left: 55%;
+  height:100%;
+  width:auto;
+}
+
+#dem{
+  font-size: 200%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #669999;
+  margin-top: 50%;
+  margin-right:10%;
+}
+
+#music{
+  margin-left: 55%;
+  height:100%;
+  width:auto;
+}
+
+#lyric{
+font-family: 'Short Stack', cursive;
+font-size: 100%;
+line-height: 2.3em;
+}
+
+#notice{
+  font-family: 'Short Stack', cursive;
+  font-size: 80%;
+}
+
+h1{
+  font-family: 'Short Stack', cursive;
+  font-size: 200%;
+  margin-top: 20%;
+}
+.color{
+  color:#669999;
+}
+
+
+/*#ready{
+position: fixed;
+border-radius: 5%;
+background-color: #fcbdc9;
+border: none;
+color: green;
+text-align: center;
+font-size: 100%;
+padding: 1%;
+width: auto;;
+cursor: pointer;
+margin-left: 800px;
+margin-top: 680px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+z-index: 9;
+}*/
+
+
+canvas{
+    border: 1px pink solid;
+}
+#textCanvas{
+    display: none;
+    border: 1px solid pink;
+}
+
+#text{
+  width:230px;
+	height:60px;
+	border:2px dashed #D1C7AC;
+  font-family: 'Short Stack', cursive;
+  font-size: 100%;
+  color:pink;
+}
+
+#image{
+  margin-top: 5%;
+}

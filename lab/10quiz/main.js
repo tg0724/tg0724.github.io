@@ -31,9 +31,9 @@ console.log(checkerboard);
 //third task
 function triangle(height) {
 	triangle = "";
-	for (var row = height; row > 0; row--) {
-    	for (var col = row; col > 0; col--) {
-    		triangle = triangle + col;
+	for (var row = 0; row < height; row++) {
+    	for (var col = 0; col <= row; col++) {
+    		triangle = triangle + "#";
     	}
     	triangle = triangle + "\n";
 	}
@@ -49,12 +49,25 @@ for(x=1; x<=6; x++)
      {
     chr=chr+("#");
       }
- console.log(chr);
- chr='';
+  chr = chr + "\n";
+
+
 }
+ console.log(chr);
 
 
+function generatePyramid() {
+    var totalNumberofRows = 5;
+    var arr = new Array();
+    for (var i = 1; i <= totalNumberofRows; i++) {
+        for (var j = 1; j <= i; j++) {
 
+            arr.push(j);
+            console.log(j);
+        }
+        console.log("\n");
+    }
+}
 
 //fourth task
 
