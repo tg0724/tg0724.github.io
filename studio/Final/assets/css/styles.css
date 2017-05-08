@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+}
+.bk{
+  width:100%;
+  height:20%;
+  height:600px;
+}
+
+.image{
+  height:35%;
+  width:45%;
+}
+
+.image.right{
+  margin-left: 50%;
+  margin-top:-25%;
+  position: absolute;
+}
+.image.left{
+  margin-left: 5%;
+  margin-top:-25%;
+  position: absolute;
+}
+.bt{
+  background-color: #f46b42;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30%;
+  cursor: pointer;
+  padding:1% 4%;
+}
+.bt.grey{
+  background-color: #444444;
+}
+.brief{
+  color:#fff;
+  font-size: 40%;
+  font-family:  avenir;
+  line-height: 2em;
+  padding: 1%;
+}
+
+#home{
+  width:4%;
+  margin-left: 2%;
+  margin-top: 1%;
+  position: relative;
+}
+
+#bar{
+  display: inline-block;
+  left: 9%;
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 9%;
+  background-color: white;
+  z-index: 10;
+  opacity: 0.9;
+}
+.nav-down{
+  top:0;
+  transition: top 0.5s;
+}
+.nav-up{
+  top:-10%;
+  transition: top 0.5s;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+li a{
+  display:block;
+  color: #444444;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30%;
+  z-index: 999;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.main{
+  font-size: 100%;
+}
+
+/*first section*/
+.bk.first{
+  background-color: #49D2EA;
+}
+#type{
+  width:40%;
+  height:30%;
+  margin-left: 10%;
+  margin-top: 15%;
+  display: inline-block;
+}
+* { color:#fff;
+  text-decoration: none;
+  font-size: 48px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.image.first{
+  margin-left: 50%;
+  margin-top:-16%;
+}
+.pic.first{
+  width:55%;
+  margin-left: 30%;
+}
+/*about section*/
+.bk.about{
+  background-color: #F5F6FA;
+}
+#type1{
+  width:40%;
+  height:60%;
+  margin-left: 10%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+#about{
+  font-size: 100%;
+  color:#4c4e51;
+}
+.pic.about{
+  margin-top: -20%;
+  margin-left: 10%;
+  width: 100%;
+}
+.brief.about{
+  color: #444444;
+}
+
+
+/*Intro section*/
+.bk.intro{
+  background-color: #F48169;
+}
+#type2{
+  width:40%;
+  height:60%;
+  margin-left: 50%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+.pic.intro{
+width:63%;
+margin-left: 3%;
+margin-top: -5%;
+}
+
+/*Fourth section*/
+.bk.division{
+  background-color: #87D37B;
+}
+#type3{
+  width:40%;
+  height:60%;
+  margin-left: 10%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+#responsibility{
+  font-size: 100%;
+  color:#4c4e51;
+}
+.pic.division{
+  width: 80%;
+  margin-top: -13%;
+  margin-left: 12%;
+}
+
+/*Fifth section*/
+.bk.courses{
+  background-color: #F5F6FA;
+}
+#type4{
+  width:40%;
+  height:60%;
+  margin-left: 10%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+.pic.courses{
+  width:60%;
+  margin-left: 25%;
+  margin-top: -8%;
+}
+.brief.courses{
+  color: #444444;
+}
+
+/*Six section*/
+.bk.outcomes{
+  background-color: #E48359;
+}
+#type5{
+  width:40%;
+  height:60%;
+  margin-left: 50%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+.pic.outcomes{
+  width:65%;
+  margin-left: 7%;
+  margin-top: -7%;
+}
+
+/*Seven section*/
+.bk.games{
+  background-color: #FCAA54;
+}
+#type6{
+  width:40%;
+  height:60%;
+  margin-left: 50%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+.pic.games{
+  width:55%;
+  margin-left: 8%;
+  margin-top: -5%;
+}
+
+/*Eight section*/
+.bk.chatroom{
+  background-color: #F5F6FA;
+}
+#type7{
+  width:40%;
+  height:60%;
+  margin-left: 10%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+#chatroom{
+  font-size: 100%;
+  color:#4c4e51;
+}
+.pic.chatroom{
+  width:63%;
+  margin-left: 25%;
+  margin-top: -7%;
+}
+.brief.chatroom{
+  color: #444444;
+}
+/*Nine section*/
+.bk.concerns{
+  background-color: #83D6DE;
+}
+#type8{
+  width:40%;
+  height:60%;
+  margin-left: 50%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+.pic.concerns{
+  width:60%;
+  margin-top: -7%;
+}
+
+/*Ten section*/
+.bk.support{
+  background-color: #FE8A71;
+}
+#type9{
+  width:40%;
+  height:60%;
+  margin-left: 10%;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
+}
+.pic.support{
+  width:80%;
+  margin-left: 20%;
+  margin-top: -15%;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet"  type="text/css" href="assets/css/canvas.css">
+  </head>
+  <body>
+    <div id="sketch">
+      <canvas id="paint"></canvas>
+        </div>
+          <div id="settings"> Colours
+            <button onclick="getColor('#dbe8fc');">Blue</button>
+            <button onclick="getColor('#f9b8d1');">Pink</button>
+            <button onclick="getColor('#e8f9b8');">Green</button>
+            <button onclick="getColor('#dacdf7');">Purple</button>
+            <button onclick="getColor('#fff4fa');">Eraser</button>
+          </div>
+
+          <div id="settings"> Brush Size
+            <button class="btn" onclick="getSize('5');">Small</button>
+            <button class="btn" onclick="getSize('10');">Med</button>
+            <button class="btn" onclick="getSize('15');">Large</button>
+            <button class="btn" onclick="getSize('20');">X Large</button>
+        </div>
+    <script src=assets/js/canvas.js></script>
+  </body>
+</html>
