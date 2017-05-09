@@ -1,9 +1,12 @@
-*{font-family:sans-serif;}
+
 
 #settings {
    display: block;
    text-align:center;
    margin-top: 2%;
+   font-family: 'sans-serif',Lato;
+   color: #FCAA54;
+
  }
 
 
@@ -14,4 +17,19 @@
   margin-right: auto;
   display: block;
   margin-top: 10%;
+  cursor:crosshair;
+}
+button{
+  background-color: white;
+  color:#FCAA54;
+  border: 2px solid #FCAA54;
+  border-radius: 2px;
+  text-align: center;
+  padding: 0.5% 1%;
+  margin: 0 1% ;
+}
+button:focus{
+  border: 2px solid gray;
+  border-radius: 2px;
+  outline: none;
 }

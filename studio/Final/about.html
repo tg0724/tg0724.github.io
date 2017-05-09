@@ -7,11 +7,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
+    <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v2.9&appId=667127956822077";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
     <script>
       $(document).ready(function(){
           $(".clickbar").click(function(){
-              $(".comment").slideToggle("slow");
+              $(".fb-comments").slideToggle("slow");
           });
       });
   </script>
@@ -71,13 +79,17 @@
         we are not in the exactly same direction. So, we decide to separate a bit
         but still share the resources and information.
       </p>
+      <div class="fb-comments" data-href="http://www.claudia-chen.com/studio/Final/about.html" data-width="600px" data-numposts="5"></div>
+
     </div>
     <div class="clickbar">
       === Click to Make a Comment and Share on Your FB ===
     </div>
-    <div class="comment">
+
+      <!-- <div class="fb-comments" data-href="http://www.claudia-chen.com/studio/Final/about.html" data-width="600px" data-numposts="5"></div> -->
     </div>
-    <script>
+
+  <script>
     function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");

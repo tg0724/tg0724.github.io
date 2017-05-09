@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lato:700|Open+Sans|PT+Serif|Roboto:300" rel="stylesheet">
+
 <style>
 div#memory_board{
-	background:#CCC;
-	border:#999 1px solid;
+	background:#FCAA54;
+	border:#f3fce0 10px solid;
 	width:800px;
 	height:540px;
 	padding:24px;
-	margin:0px auto;
+	margin: auto;
+	margin-top: 5%;
 }
 div#memory_board > div{
-	background: url(tile_bg.jpg) no-repeat;
-	border:#000 1px solid;
+	/*background: url(tile_bg.jpg) no-repeat;*/
+	border:#f3fce0 1px solid;
 	width:71px;
 	height:71px;
 	float:left;
@@ -21,6 +24,11 @@ div#memory_board > div{
 	font-size:64px;
 	cursor:pointer;
 	text-align:center;
+}
+h2{
+	text-align: center;
+	font-family: 'sans-serif',Lato;
+	color:#FCAA54;
 }
 </style>
 <script>
@@ -82,7 +90,7 @@ function memoryFlipTile(tile,val){
 				    memory_values = [];
             	    memory_tile_ids = [];
 				}
-				setTimeout(flip2Back, 700);
+				setTimeout(flip2Back, 650);
 			}
 		}
 	}
@@ -91,6 +99,9 @@ function memoryFlipTile(tile,val){
 </head>
 <body>
 <div id="memory_board"></div>
+<div id="memory">
+<h2 > Classic Memory Card Game</h2>
+</div>
 <script>newBoard();</script>
 </body>
 </html>
