@@ -102,19 +102,6 @@ button:focus{
   font-family: 'Lato', sans-serif;
 }
 
-#fb-root{
-  position: absolute;
-  left: 25%;
-  width:60%;
-  border: 1px solid red;
-  /*float: left;*/
-  top: 95%;
-  height: 15%;
-  display: none;
-  overflow: scroll;
-  padding-bottom: 5%;
-  margin-bottom: 5%;
-}
 
 
 
@@ -185,6 +172,10 @@ button:focus{
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+.fb-comments{
+  left:150px;
+  top:70%;
 }
 
 
@@ -270,7 +261,7 @@ button:focus{
 }
 
 
-#icons, #email.fb-comments{
+#icons, #email{
   position:absolute;
   top:70%;
   height: 28%;
