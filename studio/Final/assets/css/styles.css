@@ -1,13 +1,16 @@
 body {
   margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
 }
 
 button:focus{
   outline:none;
 }
 .bk{
+
   width:100%;
-  height:20%;
   height:600px;
 }
 
@@ -139,6 +142,7 @@ li a{
 /*about section*/
 .bk.about{
   background-color: #F5F6FA;
+  background-color: 
 }
 #type1{
   width:40%;

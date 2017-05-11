@@ -56,4 +56,9 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
 
-  
+     var about = document.querySelector(".bk.about");
+
+document.addEventListener("scroll", function() {
+  console.log("hi");
+  console.log(about.style.height);
+})
