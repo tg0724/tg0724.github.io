@@ -7,32 +7,34 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
-
-    <!-- <script>
-      $(document).ready(function(){
-          $(".clickbar").click(function(){
-              $(".comment").slideToggle("slow");
-          });
-      });
-  </script> -->
+    <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/zh_CN/sdk.js#xfbml=1&version=v2.9&appId=667127956822077";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="sidebar intro">
       <div class="buttonset intro">
         <button class="btn intro"><a class="btnlink intro" href="index.html">Home</a></button>
         </br>
-        <button class="btn intro"><a class="btnlink intro" href="about.html">Previous Blog</a></button>
+        <button class="btn intro"><a class="btnlink intro" href="about.html">Previous Post</a></button>
       </br>
-        <button class="btn intro"><a class="btnlink intro" href="division.html">Next Blog</a></button>
+        <button class="btn intro"><a class="btnlink intro" href="division.html">Next Post</a></button>
     </div>
-      <img class="img intro" src="image/rabbit.png">
+      <img class="img intro" src="image/rabbit-01.png">
     </div>
-      <h1 class="h1 intro">Intro to Online School</h1>
 
       <!--section of click>
       <! <div class="popup" onclick="myFunction()">
         <img class="sun1"   src="image/sun4-01.png">
         <span class="popuptext" id="myPopup">How are you today?</span>
       </div> -->
+      <div class="right">
+        <h1 class="h1 intro">Intro to Online School</h1>
+
       <div class="blog intro">
       <p class="p about">
         Based on the statistics, there are 30 million children are growing up
@@ -72,6 +74,10 @@
         and border their views through the virtue community.
 
       </p>
+      <div class="fb-comments" data-href="http://www.claudia-chen.com/studio/Final/about.html" data-width="600px" data-numposts="5"></div>
+
+    </div>
+  </div>
     <!-- </div>
     <div class="clickbar">
       === Click to Make a Comment and Share on Your FB ===
