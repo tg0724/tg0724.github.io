@@ -270,7 +270,7 @@ button:focus{
 }
 
 
-#icons, #email{
+#icons, #email.fb-comments{
   position:absolute;
   top:70%;
   height: 28%;
