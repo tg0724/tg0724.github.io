@@ -176,6 +176,8 @@ button:focus{
 .fb-comments{
   left:150px;
   top:70%;
+  position: absolute;
+  height:28%;
 }
 
 
