@@ -179,7 +179,7 @@ button:focus{
 .fb-comments{
   left:150px;
   top:70%;
-  position: fixed;
+  position: absolute;
   height:20%;
 }
 
@@ -191,7 +191,7 @@ button:focus{
 #update{
   /*position: absolute;*/
   width: 100%;
-  position: absolute;
+  /*position: absolute;*/
 }
 
 /*intro page*/
