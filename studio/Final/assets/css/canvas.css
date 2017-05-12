@@ -1,18 +1,20 @@
-
+html{
+  background-color: #FCAA54;
+}
 
 #settings {
    display: block;
    text-align:center;
    margin-top: 2%;
    font-family: 'sans-serif',Lato;
-   color: #FCAA54;
+   color: #fff;
 
  }
 
 
 #paint {
   border: 10px solid #def2fc;
-  background : #fff4fa;
+  background : #fff;
   margin-left: auto;
   margin-right: auto;
   display: block;

@@ -116,10 +116,13 @@ button:focus{
 
 .sun1{
   position: fixed;
-  width:10%;
+  width:7%;
+  margin-right: 1%;
+  margin-top: 1%;
   top:0;
   right:0;
 }
+
 
 .popup{
   -webkit-user-select: none;
@@ -135,13 +138,13 @@ button:focus{
     width: 10%;
     background-color:#ee862d;
     color: #fff;
-    text-align: center;
     border-radius: 6px;
     padding: 1%;
     position: absolute;
     z-index: 1;
     top: 20%;
     margin-left: 85%;
+    line-height: 2em;
 }
 
 /* Popup arrow */
@@ -180,6 +183,16 @@ button:focus{
   height:20%;
 }
 
+#irene{
+  width:100%;
+  /*position: absolute;*/
+}
+
+#update{
+  /*position: absolute;*/
+  width: 100%;
+  position: absolute;
+}
 
 /*intro page*/
 .sidebar.intro{
@@ -190,7 +203,10 @@ button:focus{
   color:#F48169;
 }
 
-
+#elearn{
+  width:100%;
+  margin-top: 50px;
+}
 
 .buttonset.intro{
   top:40%;
@@ -204,8 +220,12 @@ button:focus{
 .btnlink.intro{
   color:#F48169;
 }
-
-
+.sun2{
+  width:10%;
+  top:0;
+  right:0;
+  position: fixed;
+}
 /*division section*/
 .sidebar.division{
   background-color: #87D37B
@@ -215,6 +235,11 @@ button:focus{
   color: #87D37B;
 }
 
+#directory{
+  width:100%;
+
+}
+
 /*courses section*/
 .sidebar.courses{
   background-color: #F5F6FA;
@@ -222,6 +247,13 @@ button:focus{
 
 .buttonset.courses{
   top:40%;
+}
+#personset{
+  width:100%;
+  margin-top: 3%;
+  float: left;
+  text-align: center;
+
 }
 
 /*outcomes section*/
@@ -244,7 +276,14 @@ button:focus{
 .buttonset.outcomes{
   top:40%;
 }
-
+#pic{
+  width: 100%;
+  text-align: center;
+}
+#rocket{
+  width:30%;
+  margin-top:2%;
+}
 /*games section*/
 .sidebar.games{
   background-color:#FCAA54;
@@ -262,8 +301,12 @@ button:focus{
   color: #FCAA54;
 }
 
-
-#icons, #email{
+#icons{
+  position: absolute;
+  text-align: center;
+  float: left;
+}
+ #email{
   position:absolute;
   top:70%;
   height: 28%;
@@ -309,6 +352,20 @@ padding-bottom: 5%;
   color:#ee862d;
   font-family: 'Lato', sans-serif;
 }
+#chatimg{
+  width:20%;
+  height: auto;
+  display: block;
+  float:left;
+}
+#explain{
+  float: left;
+  width:70%;
+  margin-left: 5%;
+  margin-top: 1%;
+  height:auto;
+}
+
 
 /*concerns section*/
 .buttonset.concerns{
@@ -325,6 +382,15 @@ padding-bottom: 5%;
   width: 60%;
   height:30%;
   left:25%;
+}
+
+#network{
+  width: 100%;
+  text-align: center;
+}
+#net{
+  padding-top: 5%;
+  width: 30%;
 }
 
 
