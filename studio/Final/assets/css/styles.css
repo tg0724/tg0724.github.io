@@ -5,10 +5,14 @@ body {
   overflow: scroll;
 }
 
+
+
+}
+
 button:focus{
   outline:none;
 }
-.bk,.bg{
+.bk{
 
   width:100%;
   height:600px;
