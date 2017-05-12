@@ -514,8 +514,8 @@ input[type=text] {
 
 @media (min-width: 481px) and (max-width: 991px){
   .right{
-    width:100%;
-    height:calc(100% - 100px)
+    width:90%;
+    height:80%;
     position:absolute;
     left:-5%;
 
@@ -539,21 +539,22 @@ input[type=text] {
     /*margin: auto;*/
     width: auto;
   }
-  /*.buttonset{
+  .buttonset{
     height:100%;
     width: 10%;
     float: left;
     text-align: center;
     position: absolute;
-    border: 1px solid red;
     bottom:0;
     left:0;
+    z-index: 999;
   }
   .btn{
+    margin: 10px;
     position: absolute;
     cursor:pointer;
     width:100px;
     margin: 0;
-  }*/
+  }
 
 }
